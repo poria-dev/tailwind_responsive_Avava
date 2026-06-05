@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+
+@layer base {
+    h2{
+        @apply font-[f1]
+    }
+}
+
+@layer components {
+
+   .box-title1{
+
+    @apply w-9/10 container flex flex-wrap justify-between items-center  mt-10 mx-auto *:w-1/2 *:nth-[1]:flex  *:nth-[1]:*:w-full *:nth-[1]:flex-wrap *:nth-[1]:*:nth-[1]:text-fav *:nth-[1]:*:nth-[1]:font-[f2] *:nth-[1]:*:nth-[1]:text-lg *:nth-[1]:*:nth-[1]:md:text-xl *:nth-[1]:*:nth-[2]:text-black *:nth-[1]:*:nth-[2]:font-[f2] *:nth-[1]:*:nth-[2]:text-xl *:nth-[1]:*:nth-[2]:md:text-2xl *:nth-[2]:flex *:nth-[2]:justify-end *:nth-[2]:items-center *:nth-[2]:*:font-[f1] *:nth-[2]:*:text-fav *:nth-[2]:*:text-[13px] *:nth-[2]:*:md:text-xl
+
+    }
+
+
+   
+
+}
+
+@layer utilities {
+
+    .row {
+        @apply flex flex-wrap w-full
+    }
+
+}
+
+@theme {
+
+    --color-fav: #ec5501;
+    --color-black: #000000:
+
+}
+
+  @font-face {
+        font-family: f1;
+        src: url(font/Roboto-Fontjo.com/Roboto-Black.ttf);
+    }
+ 
+   @font-face {
+        font-family: f2;
+        src: url(font/Roboto-Fontjo.com/Roboto-BoldCondensed.ttf);
+    }
+
+   @font-face {
+        font-family: f3;
+        src: url(font/Roboto-Fontjo.com/Roboto-Light.ttf);
+    }
+   @font-face {
+        font-family: f4;
+        src: url(font/Roboto-Fontjo.com/Roboto_Specimen_Book.pdf);
+    }
+   @font-face {
+        font-family: f5;
+        src: url(font/Roboto-Fontjo.com/Roboto-Thin.ttf);
+    }
+
+
+
+
+    @keyframes one {
+        
+
+        from{
+            background-color: transparent;
+        }
+
+        to{
+            background-color: rgba(255, 68, 0, 0.54);
+        }
+    }
