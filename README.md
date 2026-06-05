@@ -1,1 +1,1 @@
-# tailwind_responsive_Avava
+https://poria-dev.github.io/tailwind_responsive_Avava/
